@@ -1,0 +1,5 @@
+{
+  "name": "fle3d",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "python -m venv .venv && . .venv/bin/activate && python -m pip install -U pip wheel && pip install -r requirements.txt && python -m ipykernel install --user --name fle3d --display-name \"Python (fle3d)\""
+}

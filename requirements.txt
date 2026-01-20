@@ -1,0 +1,31 @@
+# ---- PyTorch (CPU) wheels ----
+# (keeps everything else from normal PyPI)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core numerical stack
+numpy==1.24.4
+scipy==1.11.4
+matplotlib==3.8.4
+
+# I/O + utilities
+mrcfile==1.5.4
+tqdm==4.66.4
+joblib==1.4.2
+
+# FLE3D dependencies
+finufft==2.4.1
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+torch-harmonics==0.8.0
+
+# Peak finding
+torch-find-peaks
+
+# Optional (only needed if you call create_denseB with N>32 often)
+pyshtools
+
+# Notebooks
+jupyterlab==4.2.5
+notebook==7.2.2
+ipykernel==6.29.5
