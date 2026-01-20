@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Large volumes / data
+*.mrc
+*.map
+*.h5
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
