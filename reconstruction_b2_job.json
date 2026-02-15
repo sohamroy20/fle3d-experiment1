@@ -1,0 +1,82 @@
+{
+    "mask": "/scicore/home/dokman0000/roy0003/pytom_experiment/masks/mask_4CR2.mrc",
+    "mask_is_spherical": true,
+    "output_dir": "/scicore/home/dokman0000/roy0003/pytom_experiment/tm_4CR2_30A",
+    "tomogram": "/scicore/home/dokman0000/roy0003/pytom_experiment/reconstruction_b2.mrc",
+    "template": "/scicore/home/dokman0000/roy0003/pytom_experiment/templates/template_4CR2_15A.mrc",
+    "tomo_id": "reconstruction_b2",
+    "ts_metadata": {
+        "tilt_angles": [
+            -60.0,
+            60.0
+        ],
+        "angles_in_degrees": true,
+        "ctf_data": null,
+        "dose_accumulation": null,
+        "defocus_handedness": 0,
+        "per_tilt_weighting": false,
+        "__class__": "TiltSeriesMetaData"
+    },
+    "tomo_shape": [
+        256,
+        256,
+        256
+    ],
+    "template_shape": [
+        64,
+        64,
+        64
+    ],
+    "mask_shape": [
+        64,
+        64,
+        64
+    ],
+    "voxel_size": 30.0,
+    "tomogram_mask": null,
+    "whole_start": null,
+    "sub_start": [
+        0,
+        0,
+        0
+    ],
+    "sub_step": [
+        256,
+        256,
+        140
+    ],
+    "start_slice": 0,
+    "steps_slice": 1,
+    "rotational_symmetry": 1,
+    "particle_diameter": 220.0,
+    "rotation_file": "7.0",
+    "n_rotations": 50544,
+    "low_pass": null,
+    "high_pass": null,
+    "whiten_spectrum": false,
+    "whitening_filter": "/scicore/home/dokman0000/roy0003/pytom_experiment/tm_4CR2_30A/reconstruction_b2_whitening_filter.npy",
+    "random_phase_correction": false,
+    "rng_seed": 12044706476985558990,
+    "job_key": "0",
+    "leader": null,
+    "job_stats": {
+        "search_space": 463743221760,
+        "variance": 0.0003573988525851565,
+        "std": 0.01890499543996656
+    },
+    "log_level": 20,
+    "pytom_tm_version_number": "0.12.1",
+    "output_dtype": "float16",
+    "search_x": [
+        0,
+        256
+    ],
+    "search_y": [
+        0,
+        256
+    ],
+    "search_z": [
+        60,
+        200
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "mask": "/scicore/home/dokman0000/roy0003/pytom_experiment/masks/mask_5MRC_15.mrc",
+    "mask_is_spherical": true,
+    "output_dir": "/scicore/home/dokman0000/roy0003/pytom_experiment/recon_5MRC_ri",
+    "tomogram": "/scicore/home/dokman0000/roy0003/pytom_experiment/reconstruction_fixed.mrc",
+    "template": "/scicore/home/dokman0000/roy0003/pytom_experiment/templates/template_5MRC_15.mrc",
+    "tomo_id": "reconstruction_fixed",
+    "ts_metadata": {
+        "tilt_angles": [
+            -60.0,
+            60.0
+        ],
+        "angles_in_degrees": true,
+        "ctf_data": null,
+        "dose_accumulation": null,
+        "defocus_handedness": 0,
+        "per_tilt_weighting": false,
+        "__class__": "TiltSeriesMetaData"
+    },
+    "tomo_shape": [
+        512,
+        512,
+        512
+    ],
+    "template_shape": [
+        64,
+        64,
+        64
+    ],
+    "mask_shape": [
+        64,
+        64,
+        64
+    ],
+    "voxel_size": 15.0,
+    "tomogram_mask": null,
+    "whole_start": null,
+    "sub_start": [
+        0,
+        0,
+        0
+    ],
+    "sub_step": [
+        512,
+        512,
+        140
+    ],
+    "start_slice": 0,
+    "steps_slice": 1,
+    "rotational_symmetry": 1,
+    "particle_diameter": 220.0,
+    "rotation_file": "10.0",
+    "n_rotations": 15552,
+    "low_pass": null,
+    "high_pass": null,
+    "whiten_spectrum": false,
+    "whitening_filter": "/scicore/home/dokman0000/roy0003/pytom_experiment/recon_5MRC/reconstruction_fixed_whitening_filter.npy",
+    "random_phase_correction": false,
+    "rng_seed": 4004645709360179780,
+    "job_key": "0",
+    "leader": null,
+    "job_stats": {
+        "search_space": 570760888320,
+        "variance": 0.00032134578733481725,
+        "std": 0.017926120253273357
+    },
+    "log_level": 20,
+    "pytom_tm_version_number": "0.12.1",
+    "output_dtype": "float16",
+    "search_x": [
+        0,
+        512
+    ],
+    "search_y": [
+        0,
+        512
+    ],
+    "search_z": [
+        60,
+        200
+    ]
+}
+
